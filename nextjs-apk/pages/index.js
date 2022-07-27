@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Learn <a href="https://nextjs.org">Next.js!</a>
+          Hej 
+          <Link href="/about/about"><a > Signe!</a></Link> 
         </h1>
 
         <p className="description">
@@ -111,6 +113,7 @@ export default function Home() {
         .title a:focus,
         .title a:active {
           text-decoration: underline;
+          color: #000000;
         }
 
         .title {
